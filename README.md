@@ -5,8 +5,8 @@
 服务端部分：
 
 步骤:
-1.启动webpack-dev-server服务器
-2.创建webpack实例
+·1.启动webpack-dev-server服务器
+·2.创建webpack实例
 3.创建Server服务器
 4.添加webpack的done事件回调
   编译完成向客户端发送消息
