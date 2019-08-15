@@ -1,12 +1,12 @@
 # webpack_hmr
 手动简易实现webpack热更新
 
-
+```
 服务端部分：
 
 步骤:
-·1.启动webpack-dev-server服务器
-·2.创建webpack实例
+1.启动webpack-dev-server服务器
+2.创建webpack实例
 3.创建Server服务器
 4.添加webpack的done事件回调
   编译完成向客户端发送消息
@@ -36,3 +36,4 @@
   里面会调用hotAddUpdateChunk 方法，用新的模块替换掉旧的模块
 9.然后会调用 HotModuleReplacement.runtime.js 的hotAddUpdateChunk 方法更新模块代码
 10.然后调用hotApply方法进行热更新
+```
