@@ -1,5 +1,5 @@
 
-let socket = io('/')
+let socket = io('/') // index.html传入的socket.io后会得到一个io对象
 
 class Emitter{
   constructor(){
